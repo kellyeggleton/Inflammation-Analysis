@@ -14,10 +14,10 @@ axes1.set_ylabel('Average')
 axes1.plot(data.mean(axis=0))
 
 axes2.set_ylabel('Max')
-axes2.plot(data.mean(axis=0))
+axes2.plot(data.max(axis=0))
 
 axes3.set_ylabel('Min')
-axes3.plot(data.mean(axis=0))
+axes3.plot(data.min(axis=0))
 
 fig.tight_layout()
 
